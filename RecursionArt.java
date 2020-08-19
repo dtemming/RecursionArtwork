@@ -27,16 +27,16 @@ public class RecursionArt extends PApplet {
 	public void draw() {
 		// Drawing background
 		background(255,255,255);
-		// Drawing target
+		// Drawing circle design
 		circleRecursion(12, 400);
-		// Draw the "dream catcher"
+		// Drawing square design
 		squareRecursion(400, 0, 400, 400, 800);
-		// Draw the triangles
+		// Draw triangle design
 		triangleRecursion(400, 0, 400, 400, 400, 400, 800, 0, 400, 0, 800, 400, 800);
 		//making a black background
 		fill(0, 0, 0);
 		quad(400, 400, 800, 400, 800, 800, 400, 800);
-		// Draw whatever you want as long as its recursive.
+		// Drawing color gradient circles
 		colorRecursion(500, 500, 700, 500, 500, 700, 700, 700, 200, 255, 0, 155);
 	}
 	
